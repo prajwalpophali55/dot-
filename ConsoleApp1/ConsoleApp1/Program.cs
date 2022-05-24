@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string s, revs = "";
             Console.WriteLine("Enter string");
