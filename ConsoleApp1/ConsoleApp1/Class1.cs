@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class1
     {  
-       public static void Main(string[] args)
+       public static void Main2(string[] args)
         {
             int[] myArray = new int[] { 0, 1, 6, 5, 8, 15, 2 };
             int largest = int.MinValue;
