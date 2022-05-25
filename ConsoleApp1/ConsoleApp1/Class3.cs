@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class3
     {
-        public static void Main(string[] args)
+        public static void Main3(string[] args)
         {
             int n, ctr = 0;
             int[] arr1 = new int[100];
