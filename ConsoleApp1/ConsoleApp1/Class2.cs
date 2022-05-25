@@ -6,9 +6,9 @@ namespace ConsoleApp1
 {
     class Class2
     {
-        public static void Main(string[] args)
+        public static void Main2(string[] args)
         {
-            int i, j, m, n;
+            int i, j;
             int[,] arr1 = new int[2, 2];
             int[,] arr2 = new int[2, 2];
             int[,] arr3 = new int[2, 2];
@@ -23,10 +23,10 @@ namespace ConsoleApp1
             Console.WriteLine();
             Console.WriteLine();
 
-            for (int row =0; row <2; row++);
+            for (int row =0; row <2; row++)
 
             {
-                for (int col =0; col <2; col++);
+                for (int col =0; col <2; col++)
                 {
                     Console.WriteLine("Please enter the value for arr2[" + row +"," + col +"]:");
                         arr2[row , col]= Convert.ToInt32(Console.ReadLine());
@@ -40,9 +40,9 @@ namespace ConsoleApp1
                 for(j =0; j <2; i++)
                 {
                     arr3[i, j] = 0;
-                    for(int k =0; k <2; k++)
+                    for( int k =0; k <2; k++)
                     {
-                        arr3[i, j] + = arr1[i, k] * arr2[k, j];
+                        arr3[i, j] +=arr1[i, k] * arr2[k, j];
                     }
                 }
             }
@@ -55,7 +55,7 @@ namespace ConsoleApp1
                 {
                     Console.Write(arr3[i, j] + "\t");
                 }
-                Console.Readline();
+                Console.WriteLine();
             }
         }
     }
