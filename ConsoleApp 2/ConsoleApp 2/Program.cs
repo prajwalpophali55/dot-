@@ -4,7 +4,7 @@ namespace ConsoleApp_2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int x = 5, y = 6;
             Console.WriteLine("Before Swapping \na=" + x + "  b=" + y);
