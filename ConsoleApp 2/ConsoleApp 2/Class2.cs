@@ -9,11 +9,20 @@ namespace ConsoleApp_2
         public int a;
     }
     class Employe
-    {
+    { 
         public string Name;
-        public int ID;
-        public string Gender;
+       public int ID;
         public int Salary;
+        public string Gender;
+        public string CompanyName;
+        public Employe()
+        {
+            CompanyName = "Capgemini";
+        }
+        ~Employe()
+        {
+
+        }
 
         public void GetData()
         {
