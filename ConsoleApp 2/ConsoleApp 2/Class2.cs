@@ -10,11 +10,11 @@ namespace ConsoleApp_2
     }
     class Employe
     { 
-        public string Name;
-       public int ID;
-        public int Salary;
-        public string Gender;
-        public string CompanyName;
+        private string Name;
+        private int ID;
+        private int Salary;
+        private string Gender;
+        private string CompanyName;
         public Employe()
         {
             CompanyName = "Capgemini";
@@ -49,7 +49,7 @@ namespace ConsoleApp_2
         
     class Class2
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             /*  sample s1 = new sample();
               s1.a = 6; 
