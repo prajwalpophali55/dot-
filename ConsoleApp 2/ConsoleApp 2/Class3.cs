@@ -27,7 +27,7 @@ namespace ConsoleApp_2
 
     class Class3
     {
-        public static void Main()
+        public static void Main3()
         {
             PropertiesInClass p = new PropertiesInClass(2.5);
             Console.WriteLine("Radius is " + p.radius);
