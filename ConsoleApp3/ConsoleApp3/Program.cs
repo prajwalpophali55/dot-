@@ -6,7 +6,7 @@ namespace ConsoleApp3
     {
         public static void sum()
         {
-            int sum = 1 + 2;
+            int sum = 3 + 2;
             Console.WriteLine(sum);
         }
         public static void sum(int a, int b)
@@ -24,7 +24,7 @@ namespace ConsoleApp3
             int sum = Convert.ToInt32(a) + Convert.ToInt32(b);
             Console.WriteLine(sum);
         }
-        public static void Main()
+        public static void Main1()
         {
             sum();
             sum(3, 2, 3);
