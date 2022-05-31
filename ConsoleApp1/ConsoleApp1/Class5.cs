@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class5
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
 
             Console.WriteLine("Enter a number");
