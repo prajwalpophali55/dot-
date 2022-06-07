@@ -43,4 +43,52 @@ Where id = 2;
     insert into Department values(1002, 'HR', 'pune');
     insert into Department values(1003, 'IT', 'mumbai');
 
+	select * from Employe1;
+
+	Select * from Department;
+
+	Select * from Employe1 as emp full outer join Department as dep on emp.id=dep.id;
 	
+	Select * from Employe1 as emp right outer join Department as dep on emp.id= dep.id;
+
+	Select * from Employe1 as emp left outer join Department as dep on emp.id= dep.id;
+
+	create table Student(id int, rollno int, firstname varchar(50), lastname varchar(50), gender varchar(50), classid int);
+
+	Create table studentclass(id int, classname int);
+
+	select firstname, lastname, rollno, gender, classname from Student as std inner join studentclass as stdclass on std.id = stdclass.id;
+
+	create table Student1(id int, rollno int, firstname varchar(50), lastname varchar(50), gender varchar(50), classid int);
+
+	insert into student1 values(101, 001, 'Prajwal', 'pophali', 'male', 1);
+	insert into student1 values(102, 002, 'mayur', 'bodhke', 'male', 1);
+	insert into student1 values(103, 003, 'pranali', 'patil', 'female', 1);
+	insert into student1 values(104, 004, 'roshni', 'ramchandani', 'female', 1);
+	insert into student1 values(105, 005, 'ayush', 'panwelkar', 'male', 1);
+
+	select * from student1;
+create table studentclass1(id int, classname varchar(50));
+
+	create table studentclass2(id int, classname varchar(50));
+
+	insert into studentclass1 values(101, 'rahul');
+	insert into studentclass1 values(102, 'nandini');
+	insert into studentclass1 values(103, 'rayal');
+	
+	insert into studentclass2 values(101, 'rahul');
+	insert into studentclass2 values(102, 'nandini');
+	insert into studentclass2 values(103, 'rayal'); 
+
+	select * from studentclass2;
+
+	select rollno, CONCAT(firstname, ' ', lastname) as fullname, gender, classname from student1 as std inner join studentclass2 as std_class on std.id = std_class.id;
+	
+	 create function Getfullname(@ID int)
+     returns int  AS 
+     Begin
+	  return (select CONCAT(firstname,' ',lastname) as FullName from student1 where id=@ID);
+      End
+	  select * from student1
+      select dbo.(101); 
+

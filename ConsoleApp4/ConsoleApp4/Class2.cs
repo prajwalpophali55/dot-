@@ -6,10 +6,10 @@ namespace AppointmentApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
-            Appointment obj = new Appointment("Tuesday", 15);
-            var res = obj.CheckSlot();
+            Appointment obj=new Appointment("Tuesday", 15);
+            var res=obj.CheckSlot();
         }
 
     }
@@ -21,8 +21,8 @@ namespace AppointmentApp
 
         public Appointment(string Day, int Time)
         {
-            this.Day = Day;
-            this.Time = Time; 
+            this.Day=Day;
+            this.Time=Time; 
 
              
         }

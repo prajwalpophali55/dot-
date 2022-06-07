@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
 namespace ConsoleApp3
 {
     class calculator
-    {
+    { 
         public int Number1, Number2;
 
         public calculator(int num1, int num2)
@@ -32,7 +31,7 @@ namespace ConsoleApp3
 
     class Class2
     {
-        public static void Main3()
+        public static void Main6()
         {
             Calculator calculator1 = new Calculator(15, 20);
             Calculator calculator2 = new Calculator(20, 20);
