@@ -6,7 +6,7 @@ namespace ConsoleApp5
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             SampleDb1Context db = new SampleDb1Context();
             /*Sample1 tblsample = new Sample1();
