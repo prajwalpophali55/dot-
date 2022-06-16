@@ -1,0 +1,4 @@
+DESKTOP-H13URP5
+
+
+Scaffold-DbContext "Data Source=DESKTOP-H13URP5;Initial Catalog=CustomerDB1;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models 
